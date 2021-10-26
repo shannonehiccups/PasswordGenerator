@@ -1,1 +1,53 @@
 /* font-family: 'Zen Kaku Gothic Antique', sans-serif; */
+
+/* Star Selector (Selects every element in the HTML file) */
+* {
+    /* Includes the padding and border when setting a width or height for an element */
+    box-sizing: border-box;
+  }
+  
+  body {
+    /* background-color: #0275ff; */
+    background: radial-gradient(#7e3da352, #8f73db);
+    color: #fff6f2;
+    font-family: 'Zen Antique Soft', serif;
+    /* Flexbox is used here to center the div with id of "container" vertically and horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Setting the height to 100vh so the div will be centered vertically in the browser window (AKA Viewport) */
+    height: 100vh;
+    /* Adding padding the to body element so the div container is not up against the edge of the viewport on smaller screen sizes */
+    padding: 25px;
+  }
+  
+  h2 {
+    /* Top Right/Left Bottom */
+    margin: 10px 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .btn {
+    background-color: #51427a;
+    /* Removes the default button border */
+    border: none;
+    /* Button do NOT inherit text color. Must apply a new text color directly to the element */
+    color: #fff6f2;
+    /* Changes the cursor when hovering over a button */
+    cursor: pointer;
+    padding: 8px 12px;
+  }
+  
+  .option {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+  }
+  
+  #container {
+    background-color:#51427a;
+    padding: 15px;
+    width: 350px;
+    border-radius: 5px;
+  }
