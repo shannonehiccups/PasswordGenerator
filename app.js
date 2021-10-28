@@ -119,3 +119,5 @@ return finalPassword;
 
 
 
+// There was a problem in the beginning of my js file. I am switching to Matt's JS file and will look for my mistake later. 
+// Coded the remainder of the project in the mattsjs.js file. 
